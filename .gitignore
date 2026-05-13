@@ -11,17 +11,61 @@ samples/*
 output/*
 !output/.gitkeep
 
-# === Python ===
-.venv/
-venv/
-env/
+# === Python bytecode / build artifacts ===
 __pycache__/
 *.py[cod]
 *$py.class
-*.egg-info/
-.eggs/
+*.so
+.Python
 build/
 dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# === Virtual environments ===
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# === Testing / coverage ===
+.coverage
+.coverage.*
+.cache
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.hypothesis/
+nosetests.xml
+coverage.xml
+*.cover
+
+# === Type checkers / linters ===
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+
+# === IDEs / editors ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
 
 # === macOS ===
 .DS_Store
@@ -30,17 +74,11 @@ dist/
 Icon
 ._*
 
-# === Editors / IDEs ===
-.vscode/
-.idea/
-*.swp
-*.swo
-*.swn
-
 # === Secrets / environment ===
 .env
 .env.local
 .env.*.local
+.envrc
 *.key
 *.pem
 
@@ -49,8 +87,8 @@ hf_cache/
 .cache/
 models/
 
-# === Logs / temp ===
-*.log
-*.tmp
+# === Gradio / logs / temp ===
 gradio_cached_examples/
 flagged/
+*.log
+*.tmp
