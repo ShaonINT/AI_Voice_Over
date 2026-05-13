@@ -1,0 +1,56 @@
+# ---------------------------------------------------------------------------
+# Voice Clone Studio — .gitignore
+# ---------------------------------------------------------------------------
+
+# === NEVER COMMIT — privacy critical ===
+# Voice samples are biometric data. Keep them local, never push to GitHub.
+samples/*
+!samples/.gitkeep
+
+# Generated audio (often contains real names, scripts in progress, etc.)
+output/*
+!output/.gitkeep
+
+# === Python ===
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# === macOS ===
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# === Editors / IDEs ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# === Secrets / environment ===
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+
+# === Model caches (in case a future version stores them in-project) ===
+hf_cache/
+.cache/
+models/
+
+# === Logs / temp ===
+*.log
+*.tmp
+gradio_cached_examples/
+flagged/

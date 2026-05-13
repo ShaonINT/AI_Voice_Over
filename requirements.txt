@@ -1,0 +1,7 @@
+chatterbox-tts>=0.1.1
+gradio>=4.44.0
+torch>=2.4.0
+torchaudio>=2.4.0
+numpy<2.0
+soundfile>=0.12.1
+pydub>=0.25.1
