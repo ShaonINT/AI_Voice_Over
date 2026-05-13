@@ -8,15 +8,13 @@
 ![Engine: Chatterbox TTS](https://img.shields.io/badge/engine-Chatterbox%20TTS-orange.svg)
 ![Status: Working](https://img.shields.io/badge/status-working-success.svg)
 
-![Voice Clone Studio interface](docs/screenshot.svg)
+![Voice Clone Studio interface](docs/screenshot.png)
 
 ## What it does
 
 Voice Clone Studio is a self-hosted web app that learns the sound of your voice from a single short recording, then reads any text you type back to you in that voice. It's designed for YouTube creators who don't enjoy speaking on camera, want a consistent narration voice across videos, or need to produce voiceovers faster than recording manually.
 
 Everything runs on your own computer. No API keys, no usage limits, no subscription. The audio it generates is licensed for commercial use, including monetized YouTube content.
-
-![alt text](screenshot.png)
 
 ## Highlights
 
